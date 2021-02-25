@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>flink-data-flow</artifactId>
+        <groupId>com.fupin832</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>1.0.0</version>
+    <artifactId>com-config</artifactId>
+    <!--  update 2021-01-20  -->
+    <!--  所需组件  -->
+    <!--  com.alibaba.fastjson  待用  -->
+    <!--  com.alibaba.nacos.nacos-client  已用  -->
+
+    <dependencies>
+        <dependency>
+            <artifactId>com-exception</artifactId>
+            <groupId>com.fupin832</groupId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>flink-data-flow</artifactId>
+        <groupId>com.fupin832</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>1.0.0</version>
+    <artifactId>com-flink</artifactId>
+
+    <properties>
+        <com.fupin832.com-config.version>1.0.0</com.fupin832.com-config.version>
+        <com.fupin832.com-exception.version>1.0.0</com.fupin832.com-exception.version>
+    </properties>
+
+    <dependencies>
+        <!--    内部引用    -->
+        <dependency>
+            <groupId>com.fupin832</groupId>
+            <artifactId>com-config</artifactId>
+            <version>${com.fupin832.com-exception.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fupin832</groupId>
+            <artifactId>com-config</artifactId>
+            <version>${com.fupin832.com-config.version}</version>
+        </dependency>
+    </dependencies>
+</project>
